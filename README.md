@@ -2,7 +2,7 @@
 
 Ejemplo de [Web Sockets] con [Node.js](http://nodejs.org) y [socket.io](http://socket.io).
 
-![Screenshot](./screenshot.png)
+![Screenshot](./screenshot.PNG)
 
 ## Anatomía
 
