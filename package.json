@@ -1,6 +1,6 @@
 {
-  "name": "bucaramangajs-chat",
-  "version": "1.0.0",
+  "name": "daneolx-chat",
+  "version": "5.0.0",
   "private": true,
   "scripts": {
     "start": "node server.js"
