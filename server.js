@@ -1,3 +1,4 @@
+var PORT = process.env.PORT || 5000;
 const http = require('http');
 const express = require('express');
 const socketio = require('socket.io');
@@ -8,9 +9,9 @@ const io = socketio(server);
 
 app.use(express.static(__dirname));
 
-server.listen(4000, function (err) {
+server.listen(PORT, function (err) {
   if (err) throw err;
-  console.log('Servidor escuchando en http://0.0.0.0:4000');
+  console.log('Servidor Corriendo');
 });
 
 //
